@@ -15,3 +15,19 @@ and sends the message using the UDP socket API to the server running at the spec
 and port. If the client does not receive a message back from the server within a certain amount 
 of time, the client retries up to three tries before terminating. The program prints out when 
 data is sent and received.
+
+## Test case when message sent and received on client's side
+#### Client
+![clientT1](clientT1.png)
+#### Server
+![serverT1](serverT1.png)
+
+<br>
+
+## Test case when message is sent and there is not response from the server
+#### Client
+![clientT2](clientT2.png)
+#### Server
+![serverT2](serverT2.png)
+
+

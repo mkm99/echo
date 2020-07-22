@@ -1,4 +1,5 @@
 # Echo
+_This project is from my networking class and the requirements belong to my professor_
 
 This program implements two scripts 'client.py' and 'server.py' and uses UDP sockets. 
 The client program sends a string with a specific length to the server over

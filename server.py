@@ -29,8 +29,7 @@ while True:
     data, address = serverSocket.recvfrom(1024)
     print("Receive data from client " + address[0] + ", " + str(address[1]) + ": " + data.decode())
 
-
     # Comment this block to pretend the server is not responding back to client
     # Echo back to client
-    #print("Sending data to   client " + address[0] + ", " + str(address[1]) + ": " + data.decode())
-    #serverSocket.sendto(data,address)
+    # print("Sending data to   client " + address[0] + ", " + str(address[1]) + ": " + data.decode())
+    # serverSocket.sendto(data,address)

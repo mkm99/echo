@@ -1,5 +1,5 @@
 # Echo
-_This project is from my networking class and the requirements belong to my professor_
+_This project is from my networking class_
 
 This program implements two scripts 'client.py' and 'server.py' and uses UDP sockets. 
 The client program sends a string with a specific length to the server over
@@ -20,6 +20,8 @@ data is sent and received.
 ## Test case when message sent and received on client's side
 #### Client
 ![clientT1](clientT1.png)
+<br>
+
 #### Server
 ![serverT1](serverT1.png)
 
@@ -28,6 +30,8 @@ data is sent and received.
 ## Test case when message is sent and there is not response from the server
 #### Client
 ![clientT2](clientT2.png)
+<br>
+
 #### Server
 ![serverT2](serverT2.png)
 
